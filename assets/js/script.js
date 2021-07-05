@@ -275,7 +275,6 @@ function buildForecastCard(day) {
 }
 
 function addNewSearch(city) {
-  //console.log(city, storedSearches);
   if (storedSearches == null) {
     storedSearches = [];
   }
@@ -317,14 +316,9 @@ function isnullorempty(value) {
 
 function performAPIGETCall(queryURL, callbackFunction) {
   $.ajax({ url: queryURL, method: "GET" }).then(function (response) {
-    // console.log(response);
     callbackFunction(response);
   });
 }
-
-// function testFunction(mFunction, ...args) {
-//   console.log(mFunction(...args));
-// }
 
 function newDay(date, icon, description, temp, humidity) {
   return {
