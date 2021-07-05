@@ -8,9 +8,9 @@ So user can click on those cities and get the weather information on dashboard.
 
 # Installation
 
-Source code :
+Source code :https://github.com/SimonMSelvadurai/Weather-Dashboard
 
-Live Site :
+Live Site : https://simonmselvadurai.github.io/Weather-Dashboard/
 
 # Home Page
 
